@@ -109,13 +109,15 @@
 }
 
 .full{
-  position: absolute;
- 
+  position: fixed;
+  background: red;
   background-color: transparent;
   border: none;
   width: 10%;
   margin-left: 82%;
   cursor: pointer;
+} .full:hover{
+  background: red;
 }
 
 @media screen and (max-width: 900px) {
@@ -127,6 +129,26 @@
   
   .playB{
     width: 20%;
+    padding: 0;
+  }
+
+  input{
+    display: none;
+  }
+  
+  .mute{
+    width: 15%;
+    margin-right: 20px;
+  }
+  .time {
+    font-size: 2rem ;
+    width: 30%;
+  }
+  
+}
+@media screen and (max-width: 500px) {
+  .playB{
+    width: 10%;
     padding: 0;
   }
 
