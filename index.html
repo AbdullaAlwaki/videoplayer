@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>videoplayer</title>
+</head>
+
+<body>
+    <div class="videoP">
+        <!-- Progress -->
+        <!-- play botton -->
+        <video
+            src="https://dc596.4shared.com/img/5zG9SPIlea/d6eb2e2a/dlink__2Fdownload_2F5zG9SPIlea_3Fsbsr_3D3374f64670046a0c830a731a36ff1e45a8e_26bip_3DODguMTM0LjcxLjE5Mw_26lgfp_3D66_26bip_3DODguMTM0LjcxLjE5Mw_26bip_3DODguMTM0LjcxLjE5Mw/preview.mp4"
+            class="video" type="video/mp4" ></video>
+        <div class="play">
+            <!-- Progress -->
+        <div class="progress">
+            <div class="progress-video"></div>
+        </div>
+
+        <!-- Full Screen -->
+        <div class="ipc">
+            
+
+            <button class="playB" title="plays"><img src="./play.png" alt="" aria-label=""></button>
+        <!-- volume -->
+        <button class="mute">
+            <img class="mu" src="./volume.png" alt="">
+            <img class="mut"  src="./mute.png" alt="">
+
+        </button>
+        <input type="range" class="volume" min="0" max="1" step="0.01" value="1">
+        
+        <div class="time">
+            <span class="duration">0:00 </span>
+            <span class="current">/0:00 </span>
+            <button class="full" aria-label="full">
+            <img src="./full.png" alt="">
+        </button>
+        </div>
+    </div>
+    </div>
+    <script src="./js/javascrept.js"></script>
+</body>
+
+</html>
