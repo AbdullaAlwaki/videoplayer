@@ -60,3 +60,5 @@ mute.addEventListener('click', () => {
 full.addEventListener('click',()=> {
     video.requestFullscreen();
 })
+//cast/////////////////////////////////////
+
